@@ -1,0 +1,446 @@
+
+
+.container{
+  max-width: 1068px;
+  margin: auto;
+  width: 100%;
+}
+section{
+  padding: 4rem 0 3rem;
+}
+
+img{
+  width: 100%;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  height: auto;
+ 
+}
+.sidebar{
+  width: 20%;
+  height: 100%;
+  border: 1px solid hsl(0, 0%, 93%);
+  padding: 10px;
+
+
+ 
+  mat-expansion-panel{
+    margin: 8px;
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 93%);
+  }   
+  mat-slider{
+   width: 80%;
+
+  }
+  }
+
+
+
+
+.category-item {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px;
+  border: 1px solid hsl(0, 0%, 93%);
+  margin: 5px;
+  border-radius: 5px;
+  
+  img{
+    width:100px;
+  }
+  p{
+    color: hsl(0, 2%, 55%) ;
+    font-weight: 500;
+ 
+  }
+  h3{
+    font-weight: bold;
+  font-size: 14px;
+    color: hsl(0, 2%, 31%) ;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.main{
+  padding: 30px;
+  height: auto;
+  width: 60%;
+ 
+  border: 1px solid hsl(0, 0%, 93%);
+}
+.shop{
+  margin-top: 2rem;
+}
+.section-title{
+  font-style: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.shopcontent .product-box{
+  border: 1px solid hsl(0, 0%, 93%);
+  border-radius: 20px;
+  margin: 40px;
+  padding: 8px;
+
+  i{
+    position: relative;
+    float: right;
+    bottom: 0;
+    right: 0;
+    background-color: #171427;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+  }
+  i:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    transition: 0.5s;
+  }
+  .product-img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-bottom: .5rem;
+  }
+  .product-title{
+    font-size: 15px;
+    font-weight: 600;
+   color: rgb(65, 63, 63);
+    margin-bottom: .5rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  .product-price{
+    font-weight: 500;
+    color: #8d8c92;
+  }
+  h3{
+    color: #ff6900;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+}
+// .product-box:hover{
+//   transform: scale(1.1);
+//   transition: 1s;
+//   cursor: pointer;
+// }
+
+.shopcontent .one{
+  display: grid;
+
+}
+.shopcontent .one>div{
+  display: flex;
+}
+.shopcontent .two{
+  display: grid;
+  display: none;
+
+}
+.shopcontent .two>div{
+  display: flex;
+}
+.shopcontent .three{
+  display: grid;
+  display: none;
+
+}
+.shopcontent .three>div{
+  display: flex;
+}
+.shopcontent .Four{
+  display: grid;
+  display: none;
+
+}
+.shopcontent .Four>div{
+  display: flex;
+}
+.shopcontent .Five{
+  display: grid;
+  display: none;
+
+}
+.shopcontent .Five>div{
+  display: flex;
+}
+.shopcontent .Six{
+  display: grid;
+  display: none;
+
+}
+.shopcontent .Six>div{
+  display: flex;
+
+}
+
+
+
+
+.cartmain{
+  width: 20%;
+  height: auto;
+  border: 1px solid hsl(0, 0%, 93%);
+}
+.cart{
+  
+width: 100%;
+height: 100%;
+  padding: 20px;
+ 
+  
+  .cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+ }
+ .cart-box{
+  display: grid;
+  grid-template-columns: 30% 50% 15%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.cart-img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 10px;
+}
+.detail-box{
+  display: grid;
+  row-gap: .5rem;
+}
+.cart-product-title{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.cart-price{
+  font-weight: 500;
+}
+.cart-quantity{
+  border: 1px solid  #171427;
+  outline-color:#fd4646;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.cart-remove{
+  font-size: 24px;
+  color: #fd4646;
+  cursor: pointer;
+}
+.total{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  border-top: 1px solid #171427;
+}
+.total-title{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.total-price{
+  margin-left: .5rem;
+}
+.btn-buy{
+  display: flex;
+  margin: 1.5rem auto 0 auto;
+  padding: 12px 20px;
+  border: none;
+  background-color: #f44336;
+  color:#fff ;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-buy:hover{
+  background-color: #171427;
+}
+.run{
+display: none;
+
+}
+.hidden-icon{
+  width: 100%;
+  
+  height: auto;
+  display: none;
+  i{
+    float: right;
+    font-size: 25px;
+  }
+  i:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+  }
+  #search-icons{
+    float: left;
+  }
+}
+
+
+
+
+
+
+
+@media  (max-width:1200px){
+
+  .main{
+  
+    width:100% ;
+  
+  }
+  .shopcontent{
+    padding: 35px;
+  }
+ .sidebar{
+  width: 20%;
+ }
+ 
+  .shopcontent .product-box{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+
+    img{
+      width: 60%;
+    }
+ 
+  }
+  .cartmain{
+    display: none;
+  }
+  
+ 
+  .ppd>mat-checkbox{
+    display: none;
+  }
+  .run{
+    display: block;
+    
+  }
+  .hidden-icon{
+    display: block;
+    padding: 5px;
+  }
+  #search-icons{
+    display: none;
+  }
+  
+}
+@media  (max-width:1000px){
+  .sidebar{
+    display: none;
+  }
+  .main{
+    padding: 5px;
+    width:100% ;
+  }
+  .hidden-icon{
+    
+    i{
+      margin: 20px;
+    }
+  }
+  #search-icons{
+    display: block;
+  }
+  
+  
+}
+@media screen and (max-width:900px) and (min-width:450px){
+  .main{
+    padding: 10px;
+    width:100% ;
+  }
+  #search-icons{
+    display: block;
+  }
+  .shopcontent{
+    padding: 40px;
+  }
+  
+  .shopcontent .product-box{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+
+    img{
+      width: 60%;
+    }
+ 
+  }
+  .hidden-icon{
+    margin: 0;
+  padding: 5px;
+  }
+  .shopcontent .one>div{
+    display: grid;
+  }
+  .shopcontent .two>div{
+    display: grid;
+  }
+  .shopcontent .three>div{
+    display: grid;
+  }
+  .shopcontent .Four>div{
+    display: grid;
+  }
+  .shopcontent .Five>div{
+    display: grid;
+  }
+  .shopcontent .Six>div{
+    display: grid;
+  }
+
+}
+@media  (max-width:450px){
+  .shopcontent .product-box{
+    width: 100%;
+    margin: 8px;
+    padding: 4px;
+
+    img{
+      width: 60%;
+    }
+ 
+  }
+  .shopcontent>div{
+    margin: 5px;
+    padding: 0;
+  }
+  .shopcontent .one>div{
+    display: grid;
+  }
+  .shopcontent .two>div{
+    display: grid;
+  }
+  .shopcontent .three>div{
+    display: grid;
+  }
+  .shopcontent .Four>div{
+    display: grid;
+  }
+  .shopcontent .Five>div{
+    display: grid;
+  }
+  .shopcontent .Six>div{
+    display: grid;
+  }
+}

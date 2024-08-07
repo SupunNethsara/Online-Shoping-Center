@@ -1,0 +1,730 @@
+<mat-card>
+    <div class="menu">
+
+        <div class="sidebar">
+
+            <mat-accordion class="example-headers-align" multi>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Category
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-checkbox class="example-margin" color="warn" id="btn_diva">Jacket</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn" id="btn_divb">T-shirts</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn" id="btn_divc">Shoes</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn" id="btn_divd">Skirts</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn" id="btn_dive">Shorts</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn" id="btn_divf">Sunglases & others</mat-checkbox>
+
+                </mat-expansion-panel>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Type
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-checkbox class="example-margin" color="warn">Ladies</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn">Mens</mat-checkbox>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Color
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-checkbox class="example-margin" color="warn"><i style="color: black;"
+                            class="fa-solid fa-circle"></i></mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn"><i style="color: blue;"
+                            class="fa-solid fa-circle"></i></mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn"><i style="color: red;"
+                            class="fa-solid fa-circle"></i></mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn"><i style="color: orange;"
+                            class="fa-solid fa-circle"></i></mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn"><i style="color: green;"
+                            class="fa-solid fa-circle"></i></mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn"><i style="color: magenta;"
+                            class="fa-solid fa-circle"></i></mat-checkbox>
+                </mat-expansion-panel>
+                <div>
+                    <mat-expansion-panel class="run">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title>
+                                Size
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-checkbox class="example-margin" color="warn">L Large</mat-checkbox><br>
+                        <mat-checkbox class="example-margin" color="warn">XL Extra Large</mat-checkbox><br>
+                        <mat-checkbox class="example-margin" color="warn">M Medium</mat-checkbox><br>
+                        <mat-checkbox class="example-margin" color="warn">S Small</mat-checkbox><br>
+                        <mat-checkbox class="example-margin" color="warn">XS Extra Small</mat-checkbox>
+                    </mat-expansion-panel>
+                </div>
+
+            </mat-accordion>
+            <div style="margin-top: 40px;">
+                <p><b>Filler by Price</b></p>
+                <div style="text-align: center;">
+                    <mat-slider min="200" max="500" color="warn">
+                        <input value="300" matSliderStartThumb>
+                        <input value="400" matSliderEndThumb>
+                    </mat-slider>
+                    <p style="font-weight: 500;color:rgb(143, 138, 138);">0 to 500</p>
+
+                </div>
+
+                <div class="ppd" style="display: grid;">
+                    <mat-checkbox class="example-margin" color="warn">L Large</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn">XL Extra Large</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn">M Medium</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn">S Small</mat-checkbox>
+                    <mat-checkbox class="example-margin" color="warn">XS Extra Small</mat-checkbox>
+
+                </div>
+
+                <div>
+                    <p style="margin-top: 15px;"><b>Popular Product</b></p>
+                </div>
+                <div>
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="assets/images/Shoes/s4.png" alt="dress & frock" width="30" />
+                        </div>
+
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Dress & Shoes</h3>
+                            </div>
+                            <p>$ 45</p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="assets/images/product2.jpg" alt="dress & frock" width="30" />
+                        </div>
+
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Bags</h3>
+                            </div>
+                            <p>$ 45</p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="assets/images/product7.jpg" alt="dress & frock" width="30" />
+                        </div>
+
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Sunglass</h3>
+                            </div>
+                            <p>$ 45</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!---------------------Caegories item--------------------------->
+        <div class="main">
+            <div class="hidden-icon">
+
+                <i class="fa-solid fa-pen-to-square" id="search-icons" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <mat-accordion class="example-headers-align" multi>
+                            <mat-expansion-panel>
+                                <mat-expansion-panel-header>
+                                    <mat-panel-title>
+                                        Category
+                                    </mat-panel-title>
+                                </mat-expansion-panel-header>
+                                <mat-checkbox class="example-margin" color="warn" id="btn_divaa">Jacket</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn" id="btn_divbb">T-shirts</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn" id="btn_divcc">Shoes</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn" id="btn_divdd">Skirts</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn" id="btn_divee">Shorts</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn" id="btn_divff">Sunglases & others</mat-checkbox>
+            
+                            </mat-expansion-panel>
+                            <mat-expansion-panel>
+                                <mat-expansion-panel-header>
+                                    <mat-panel-title>
+                                        Type
+                                    </mat-panel-title>
+                                </mat-expansion-panel-header>
+                                <mat-checkbox class="example-margin" color="warn">Ladies</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn">Mens</mat-checkbox>
+                            </mat-expansion-panel>
+            
+                            <mat-expansion-panel>
+                                <mat-expansion-panel-header>
+                                    <mat-panel-title>
+                                        Color
+                                    </mat-panel-title>
+                                </mat-expansion-panel-header>
+                                <mat-checkbox class="example-margin" color="warn"><i style="color: black;"
+                                        class="fa-solid fa-circle"></i></mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn"><i style="color: blue;"
+                                        class="fa-solid fa-circle"></i></mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn"><i style="color: red;"
+                                        class="fa-solid fa-circle"></i></mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn"><i style="color: orange;"
+                                        class="fa-solid fa-circle"></i></mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn"><i style="color: green;"
+                                        class="fa-solid fa-circle"></i></mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn"><i style="color: magenta;"
+                                        class="fa-solid fa-circle"></i></mat-checkbox>
+                            </mat-expansion-panel>
+                            <div>
+                                <mat-expansion-panel class="run">
+                                    <mat-expansion-panel-header>
+                                        <mat-panel-title>
+                                            Size
+                                        </mat-panel-title>
+                                    </mat-expansion-panel-header>
+                                    <mat-checkbox class="example-margin" color="warn">L Large</mat-checkbox><br>
+                                    <mat-checkbox class="example-margin" color="warn">XL Extra Large</mat-checkbox><br>
+                                    <mat-checkbox class="example-margin" color="warn">M Medium</mat-checkbox><br>
+                                    <mat-checkbox class="example-margin" color="warn">S Small</mat-checkbox><br>
+                                    <mat-checkbox class="example-margin" color="warn">XS Extra Small</mat-checkbox>
+                                </mat-expansion-panel>
+                            </div>
+            
+                        </mat-accordion>
+                        <div style="margin-top: 40px;">
+                            <p><b>Filler by Price</b></p>
+                            <div style="text-align: center;">
+                                <mat-slider min="200" max="500" color="warn">
+                                    <input value="300" matSliderStartThumb>
+                                    <input value="400" matSliderEndThumb>
+                                </mat-slider>
+                                <p style="font-weight: 500;color:rgb(143, 138, 138);">0 to 500</p>
+            
+                            </div>
+            
+                            <div class="ppd" style="display: grid; ">
+                                <mat-checkbox class="example-margin" color="warn">L Large</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn">XL Extra Large</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn">M Medium</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn">S Small</mat-checkbox>
+                                <mat-checkbox class="example-margin" color="warn">XS Extra Small</mat-checkbox>
+            
+                            </div>
+            
+                            <div>
+                                <p style="margin-top: 15px;"><b>Popular Product</b></p>
+                            </div>
+                            <div>
+                                <div class="category-item">
+                                    <div class="category-img-box">
+                                        <img src="assets/images/Shoes/s4.png" alt="dress & frock" width="30" />
+                                    </div>
+            
+                                    <div class="category-content-box">
+                                        <div class="category-content-flex">
+                                            <h3 class="category-item-title">Dress & Shoes</h3>
+                                        </div>
+                                        <p>$ 45</p>
+                                    </div>
+                                </div>
+                                <div class="category-item">
+                                    <div class="category-img-box">
+                                        <img src="assets/images/product2.jpg" alt="dress & frock" width="30" />
+                                    </div>
+            
+                                    <div class="category-content-box">
+                                        <div class="category-content-flex">
+                                            <h3 class="category-item-title">Bags</h3>
+                                        </div>
+                                        <p>$ 45</p>
+                                    </div>
+                                </div>
+                                <div class="category-item">
+                                    <div class="category-img-box">
+                                        <img src="assets/images/product4.jpg" alt="dress & frock" width="30" />
+                                    </div>
+            
+                                    <div class="category-content-box">
+                                        <div class="category-content-flex">
+                                            <h3 class="category-item-title">Sunglass</h3>
+                                        </div>
+                                        <p>$ 45</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-----off Canvas-->
+                <i class="fa-solid fa-cart-shopping" id="search-icon" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="cart">
+                            <h2 class="cart-title">Your Cart</h2>
+
+                            <!-- CONTENT  -->
+                            <div class="cart-content">
+                                <div class="cart-box">
+                                    <img src="assets/images/Jacket/jacket-1.jpg" alt="" class="cart-img">
+
+                                    <div class="detail-box">
+                                        <div class="product-title">Earbuds</div>
+                                        <div class="cart-price">$25</div>
+                                        <input type="number" value="1" class="cart-quantity">
+                                    </div>
+
+                                    <i class="fa-solid fa-trash cart-remove"></i>
+                                </div>
+                                <div class="cart-box">
+                                    <img src="assets/images/Jacket/jacket-2.jpg" alt="" class="cart-img">
+
+                                    <div class="detail-box">
+                                        <div class="product-title">Cool Jacket</div>
+                                        <div class="cart-price">$65</div>
+                                        <input type="number" value="1" class="cart-quantity">
+                                    </div>
+
+                                    <i class="fa-solid fa-trash cart-remove"></i>
+                                </div>
+                                <div class="cart-box">
+                                    <img src="assets/images/Jacket/jacket-3.jpg" alt="" class="cart-img">
+
+                                    <div class="detail-box">
+                                        <div class="product-title">Earbuds</div>
+                                        <div class="cart-price">$85</div>
+                                        <input type="number" value="1" class="cart-quantity">
+                                    </div>
+
+                                    <i class="fa-solid fa-trash cart-remove"></i>
+                                </div>
+                                <div class="cart-box">
+                                    <img src="assets/images/Jacket/jacket-4.jpg" alt="" class="cart-img">
+
+                                    <div class="detail-box">
+                                        <div class="product-title">Earbuds</div>
+                                        <div class="cart-price">$85</div>
+                                        <input type="number" value="1" class="cart-quantity">
+                                    </div>
+
+                                    <i class="fa-solid fa-trash cart-remove"></i>
+                                </div>
+                                <div class="cart-box">
+                                    <img src="assets/images/Jacket/jacket-5.jpg" alt="" class="cart-img">
+
+                                    <div class="detail-box">
+                                        <div class="product-title">Earbuds</div>
+                                        <div class="cart-price">$85</div>
+                                        <input type="number" value="1" class="cart-quantity">
+                                    </div>
+
+                                    <i class="fa-solid fa-trash cart-remove"></i>
+                                </div>
+                            </div>
+
+                            <!-- TOTAL   -->
+                            <div class="total">
+                                <div class="total-title">Total</div>
+                                <div class="total-price">$50
+
+                                </div>
+                            </div>
+                            <!-- BUY BUTTON  -->
+                            <button type="button" class="btn-buy">Buy Now</button>
+                            <!-- CART CLOSE  -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shopcontent">
+
+                <div class="one" id="diva">
+                    <!-- BOX 1 -->
+                    <div class="first">
+                        <div class="product-box">
+                            <img src="assets/images/Jacket/jacket-1.jpg" alt="" class="product-img">
+                            <h3>JACKET</h3>
+                            <h2 class="product-title">Mens Winter Jacket</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="product-box">
+                            <img src="assets/images/Jacket/jacket-2.jpg" alt="" class="product-img">
+                            <h3>JACKET</h3>
+                            <h2 class="product-title">Mens Winter Jacket</h2>
+                            <span class="product-price">$59.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 3 -->
+                        <div class="product-box">
+                            <img src="assets/images/Jacket/jacket-3.jpg" alt="" class="product-img">
+                            <h3>JACKET</h3>
+                            <h2 class="product-title">Mens Winter Jacket</h2>
+                            <span class="product-price">$29.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="second">
+
+                        <div class="product-box">
+                            <img src="assets/images/Jacket/jacket-4.jpg" alt="" class="product-img">
+                            <h3>JACKET</h3>
+                            <h2 class="product-title">Mens Winter Jacket</h2>
+                            <span class="product-price">$55.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="product-box">
+                            <img src="assets/images/Jacket/jacket-5.jpg" alt="" class="product-img">
+                            <h3>JACKET</h3>
+                            <h2 class="product-title">Mens Winter Jacket</h2>
+                            <span class="product-price">$89.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 3 -->
+                        <div class="product-box">
+                            <img src="assets/images/Jacket/jacket-6.jpg" alt="" class="product-img">
+                            <h3>JACKET</h3>
+                            <h2 class="product-title">Mens Winter Jacket</h2>
+                            <span class="product-price">$32.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="two" id="divb">
+                    <!-- BOX 1 -->
+                    <div class="first">
+                        <div class="product-box">
+                            <img src="assets/images/Tshirts/h1.png" alt="" class="product-img">
+                            <h3>T-SHIRT</h3>
+                            <h2 class="product-title">Nike T-Shirts</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="product-box">
+                            <img src="assets/images/Tshirts/h2.png" alt="" class="product-img">
+                            <h3>T-SHIRT</h3>
+                            <h2 class="product-title">Nike T-Shirts</h2>
+                            <span class="product-price">$59.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 3 -->
+                        <div class="product-box">
+                            <img src="assets/images/Tshirts/h3.png" alt="" class="product-img">
+                            <h3>T-SHIRT</h3>
+                            <h2 class="product-title">Nike T-Shirts</h2>
+                            <span class="product-price">$29.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="second">
+
+                        <div class="product-box">
+                            <img src="assets/images/Tshirts/h4.png" alt="" class="product-img">
+                            <h3>T-SHIRT</h3>
+                            <h2 class="product-title">Nike T-Shirts</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="product-box">
+                            <img src="assets/images/Tshirts/p2.jpg" alt="" class="product-img">
+                            <h3>T-SHIRT</h3>
+                            <h2 class="product-title">Nike T-Shirts</h2>
+                            <span class="product-price">$59.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 3 -->
+                        <div class="product-box">
+                            <img src="assets/images/Tshirts/p3.jpg" alt="" class="product-img">
+                            <h3>T-SHIRT</h3>
+                            <h2 class="product-title">Nike T-Shirts</h2>
+                            <span class="product-price">$29.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="three" id="divc">
+                    <!-- BOX 1 -->
+                    <div class="first">
+                        <div class="product-box">
+                            <img src="assets/images/Shoes/s1.png" alt="" class="product-img">
+                            <h3>SHOES</h3>
+                            <h2 class="product-title">Sports & Casual shoes</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="product-box">
+                            <img src="assets/images/Shoes/s2.png" alt="" class="product-img">
+                            <h3>SHOES</h3>
+                            <h2 class="product-title">Sports & Casual shoes</h2>
+                            <span class="product-price">$59.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 3 -->
+                        <div class="product-box">
+                            <img src="assets/images/Shoes/s3.png" alt="" class="product-img">
+                            <h3>SHOES</h3>
+                            <h2 class="product-title">Sports & Casual shoes</h2>
+                            <span class="product-price">$29.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                    </div>
+
+
+                    <div class="second">
+
+                        <div class="product-box">
+                            <img src="assets/images/Shoes/s4.png" alt="" class="product-img">
+                            <h3>SHOES</h3>
+                            <h2 class="product-title">Sports & Casual shoes</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="product-box">
+                            <img src="assets/images/Shoes/s2.png" alt="" class="product-img">
+                            <h3>SHOES</h3>
+                            <h2 class="product-title">Sports & Casual shoes</h2>
+                            <span class="product-price">$59.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 3 -->
+                        <div class="product-box">
+                            <img src="assets/images/Shoes/s1.png" alt="" class="product-img">
+                            <h3>SHOES</h3>
+                            <h2 class="product-title">Sports & Casual shoes</h2>
+                            <span class="product-price">$29.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Four" id="divd">
+                    <!-- BOX 1 -->
+                    <div class="first">
+                        <div class="product-box">
+                            <img src="assets/images/Frock/clothes-3.jpg" alt="" class="product-img">
+                            <h3>FROCK</h3>
+                            <h2 class="product-title">Cotton Frocks</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="product-box">
+                            <img src="assets/images/Frock/clothes-4.jpg" alt="" class="product-img">
+                            <h3>FROCK</h3>
+                            <h2 class="product-title">Cotton Frocks</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping add-cart"></i>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="Five" id="dive">
+                    <!-- BOX 1 -->
+                    <div class="first">
+                        <div class="product-box">
+                            <img src="assets/images/shorts/casual-men-short-pants.jpg" alt="" class="product-img">
+                            <h3>SHORTS</h3>
+                            <h2 class="product-title">Cotton Frocks</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <!-- <div class="product-box">
+                            <img src="assets/images/shorts/shorts-2.jpg" alt="" class="product-img">
+                            <h3>FROCK</h3>
+                            <h2 class="product-title">Cotton Frocks</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div> -->
+                        <div class="product-box">
+                            <img src="assets/images/shorts/texture-blue-background-clothes-color.jpg" alt=""
+                                class="product-img">
+                            <h3>SHORTS</h3>
+                            <h2 class="product-title">Cotton Frocks</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="Six" id="divf">
+                    <!-- BOX 1 -->
+                    <div class="first">
+
+                        <div class="product-box">
+                            <img src="assets/images/product2.jpg" alt="" class="product-img">
+                            <h3>ANY OTHER </h3>
+                            <h2 class="product-title">Cotton Bag</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <!-- BOX 2 -->
+                        <div class="product-box">
+                            <img src="assets/images/product3.jpg" alt="" class="product-img">
+                            <h3>ANY OTHER</h3>
+                            <h2 class="product-title">Water-bottle</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="product-box">
+                            <img src="assets/images/product5.jpg" alt="" class="product-img">
+                            <h3>ANY OTHER</h3>
+                            <h2 class="product-title">Joy Stick</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+
+                    </div>
+                    <div class="second">
+                        <div class="product-box">
+                            <img src="assets/images/product6.jpg" alt="" class="product-img">
+                            <h3>ANY OTHER</h3>
+                            <h2 class="product-title">Apple Tab</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+
+                        <div class="product-box">
+                            <img src="assets/images/product7.jpg" alt="" class="product-img">
+                            <h3>ANY OTHER</h3>
+                            <h2 class="product-title">Nikon Cam</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="product-box">
+                            <img src="assets/images/product8.jpg" alt="" class="product-img">
+                            <h3>ANY OTHER</h3>
+                            <h2 class="product-title">smart Watch</h2>
+                            <span class="product-price">$79.5</span>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="cartmain">
+
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!-- CONTENT  -->
+                <div class="cart-content">
+                    <div class="cart-box">
+                        <img src="assets/images/Jacket/jacket-1.jpg" alt="" class="cart-img">
+
+                        <div class="detail-box">
+                            <div class="product-title">Earbuds</div>
+                            <div class="cart-price">$25</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+
+                        <i class="fa-solid fa-trash cart-remove"></i>
+                    </div>
+                    <div class="cart-box">
+                        <img src="assets/images/Jacket/jacket-2.jpg" alt="" class="cart-img">
+
+                        <div class="detail-box">
+                            <div class="product-title">Cool Jacket</div>
+                            <div class="cart-price">$65</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+
+                        <i class="fa-solid fa-trash cart-remove"></i>
+                    </div>
+                    <div class="cart-box">
+                        <img src="assets/images/Jacket/jacket-3.jpg" alt="" class="cart-img">
+
+                        <div class="detail-box">
+                            <div class="product-title">Earbuds</div>
+                            <div class="cart-price">$85</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+
+                        <i class="fa-solid fa-trash cart-remove"></i>
+                    </div>
+                    <div class="cart-box">
+                        <img src="assets/images/Jacket/jacket-4.jpg" alt="" class="cart-img">
+
+                        <div class="detail-box">
+                            <div class="product-title">Earbuds</div>
+                            <div class="cart-price">$85</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+
+                        <i class="fa-solid fa-trash cart-remove"></i>
+                    </div>
+                    <div class="cart-box">
+                        <img src="assets/images/Jacket/jacket-5.jpg" alt="" class="cart-img">
+
+                        <div class="detail-box">
+                            <div class="product-title">Earbuds</div>
+                            <div class="cart-price">$85</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+
+                        <i class="fa-solid fa-trash cart-remove"></i>
+                    </div>
+                </div>
+
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$50
+
+                    </div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- CART CLOSE  -->
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+</mat-card>

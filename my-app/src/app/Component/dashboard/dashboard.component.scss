@@ -1,0 +1,346 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+//////////////Full Section/////////////////////
+.dash{
+    display: flex;
+    height: 65%;
+    height: auto;
+    border:1px solid #eeeeee;
+    
+}
+////////////////Right////////////////////////////
+
+///////////////Sidebar//////////////////////////////////
+.side{
+    width: auto;
+    height: 100%;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+   
+    .icons{
+        display: grid;
+
+      li{
+   justify-content: center;
+    padding: 10px;
+    margin: 8px;
+    list-style: none;
+  
+      }
+      i{
+        font-size: 22px;
+        color: #707070;
+        padding: 15px;
+        border-radius: 10px;
+       
+      }
+     
+    }
+    li i:hover{
+        background: #f3773d;
+        color: white;
+        cursor: pointer;
+        transform: 1s;
+    }
+}
+
+///////////////Middle part//////////////////////////////
+.main{
+    width: 95%;
+ height: 100%;
+   
+   
+    button{
+        height: 36px;
+        padding: 0 16px;
+        border-radius: 50px;
+        background: #3C91E6;
+        color:#F9F9F9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 10px;
+        font-weight: 500;
+        float: right;
+        font-weight: bold;
+    }
+     .box-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-gap: 24px;
+        margin-top: 15px;
+        
+    }
+    .box-info li {
+        padding: 24px;
+        background: #F9F9F9;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        grid-gap: 24px;
+        box-shadow: 0 7px 25px rgba(85, 139, 238, 0.08);
+    }
+   
+    .box-info li .bx {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     .box-info li:nth-child(1) .bx {
+        background: #CFE8FF;
+        color: #3C91E6;
+    }
+     .box-info li:nth-child(2) .bx {
+        background:#FFF2C6;
+        color: #FFCE26;
+    }
+    .box-info li:nth-child(3) .bx {
+        background: #FFE0D3;
+        color: #FD7238;
+    }
+    .box-info li .text h3 {
+        font-size: 24px;
+        font-weight: 600;
+        color:#342E37;
+    }
+    .box-info li .text p {
+        color: #342E37;
+        font-family: 'Poppins', sans-serif;
+        // font-weight: bold;
+        font-size: 15px;	
+    }
+}
+ 
+////////////////Table////////////////////////////////
+.section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+.section > div{
+    width: 50%;
+    height: 100%;
+}
+
+ .head {
+	display: flex;
+	align-items: center;
+	grid-gap: 16px;
+	margin-bottom: 24px;
+}
+ .head h3 {
+	margin-right: auto;
+	font-size: 24px;
+	font-weight: 600;
+}
+ .head .bx {
+	cursor: pointer;
+}
+
+ .order {
+	flex-grow: 1;
+	flex-basis: 500px;
+    background-color:#F9F9F9 ;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 25px;
+    box-shadow: 0 7px 25px rgba(85, 139, 238, 0.08);
+    
+}
+ .order table {
+	width: 100%;
+    height: auto;
+	border-collapse: collapse;
+ 
+}
+ .order table th {
+	padding-bottom: 12px;
+	font-size: 13px;
+	text-align: left;
+	border-bottom: 1px solid #eee;
+}
+ .order table td {
+	padding: 16px 0;
+
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: rgb(44, 43, 43);
+    }
+}
+ .order table tr td:first-child {
+	display: flex;
+	align-items: center;
+	grid-gap: 12px;
+	padding-left: 6px;
+}
+ .order table td img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+ .order table tbody tr:hover {
+	background:#eee;
+}
+ .order table tr td .status {
+	font-size: 10px;
+	padding: 6px 16px;
+	color: #F9F9F9;
+	border-radius: 20px;
+	font-weight: 700;
+}
+ .order table tr td .status.completed {
+	background: #3C91E6;
+}
+ .order table tr td .status.process {
+	background: #FFCE26;
+}
+ .order table tr td .status.pending {
+	background: #FD7238;
+}
+
+
+/////////////////////////Rightside ////////////////////////////////////////
+
+.right{
+    display: flex;
+}
+.right>div{
+    width: 50%;
+}
+
+.box-infoo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 20px;
+    margin-top: 15px;
+
+    
+    h3{
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    p{
+        line-height: 2px;
+        font-size: 12px;
+        color:#7d8da1;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+}
+.box-infoo li {
+    padding: 6px;
+    background: #F9F9F9;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    grid-gap: 24px;
+    box-shadow: 0 7px 25px rgba(85, 139, 238, 0.08);
+ 
+}
+
+.box-infoo li .bx {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .two{
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(85, 139, 238, 0.08);
+    
+}
+
+.idea{
+    width: 100%;
+    height: 100%;
+  
+}
+.recentCustomers {
+    position: relative;
+    display: grid;
+   
+    min-height: 500px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 7px 25px rgba(85, 139, 238, 0.08);
+    border-radius: 20px;
+
+    P{
+        color: rgb(87, 139, 8);
+    }
+  }
+  .recentCustomers .imgBx {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  .recentCustomers .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .recentCustomers table tr td {
+    padding: 12px 10px;
+  }
+  .recentCustomers table tr td h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2rem;
+  }
+  .recentCustomers table tr td h4 span {
+    font-size: 14px;
+    color:  #999;
+  }
+  .recentCustomers table tr:hover {
+    background:  #2a2185;
+    color: #fff;
+    cursor: pointer;
+  }
+  .recentCustomers table tr:hover td h4 span {
+    color:#fff;
+  }
+  
+  /////////////////////Responsive/////////////////////////////////////
+  
+  @media  (max-width:1200px){
+    .section{
+        flex-wrap: wrap;
+        
+    }
+    .section >div{
+        width: 100%;
+    }
+    .right{
+       flex-wrap: wrap;
+    }
+    .right>div{
+        width: 100%;
+    }
+ 
+    
+  }
+
+  @media(max-width:700px){
+ .btns{
+    display: none;
+ }
+  }
